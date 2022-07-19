@@ -1,0 +1,261 @@
+/* Imported Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap');
+
+/* Utilities Css here */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f3f1ff;
+}
+
+.container {
+    width: 75%;
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+hr {
+    border: 1px solid #d1d1d1;
+    margin: 30px 0;
+}
+
+.section-title {
+    font-size: 24px;
+    color: #562EFF;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+/* Main css starts here */
+
+header {
+    background-color: #562EFF;
+}
+nav.nav {
+    display: flex;
+    justify-content: space-between;
+    height: 94px;
+    align-items: center;
+}
+
+.nav .brand {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    width: 40px;
+    height: 40px;
+}
+
+.nav .brand img {
+    width: 100%;
+}
+
+.nav .brand span a {
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.nav .menu-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}
+
+.menu-items li a {
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+/* Header section css ends */
+
+/* top-player css here  */
+.details, .courses {
+    background-color: #ffffff;
+    margin-top: 36px;
+    padding: 33px;
+    border-radius: 5px;
+}
+
+.details .players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+    grid-column-gap: 100px;
+}
+
+.player {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.player span a {
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+
+
+.player-img {
+    width: 56px;
+    height: 56px;
+}
+
+.player-img img {
+    width: 100%;
+}
+
+/* Blogs section starts */
+
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 26px;
+    grid-column-gap: 130px;
+}
+
+.blog-content {
+    display: flex;
+    gap: 16px;
+}
+
+
+.blog-img {
+    width: 177px;
+    height: 117px;
+}
+
+.blog-img img {
+    width: 100%;
+}
+
+.blog-content .blog-info p {
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: #000000;
+    margin-bottom: 6px;
+}
+
+.blog-info span {
+    font-size: 16px;
+    color: #9f9f9f;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.blog-info span a {
+    color: #562EFF;
+}
+
+/* Courses css starts here */
+.courses-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 24px;
+}
+
+.courses-box {
+    padding: 11px;
+    box-shadow: 0 5px 13px rgba(0, 0, 0, 0.09);
+    border-radius: 5px;
+}
+
+
+.course-img img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.course-info h3 {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Roboto',sans-serif;
+    color: #1e1e1e;
+    text-transform: capitalize;
+    line-height: 1.4;
+}
+
+.course-info>p {
+    color: #ED6B4F;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin-top: 8px;
+    margin-bottom: 13px;
+}
+
+.ratings, .rates, .star, .time {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fa-star {
+    color: #FFC014;
+    font-size: 12px;
+}
+
+.fa-star.other {
+    color: #aeaeae;
+}
+
+.star {
+    gap: 3px;
+}
+
+.rates {
+    gap: 10px;
+}
+
+.rates> p {
+    color: #a2a2a2;
+    font-size: 14px;
+    font-weight: 400px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.time {
+    gap: 6px;
+}
+
+.time >p {
+    font-size: 15px;
+    font-weight: 600;
+}
+.time-img {
+    width: 20px;
+    height: 20px;
+}
+
+.time-img img {
+    width: 100%;
+}
+
+.duration {
+    padding: 5px 10px;
+    color: #ED6B4F;
+    background-color: #fee5df;
+    border-radius: 15px;
+}
